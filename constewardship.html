@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAR 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">       
+        <a href="index.html" >HOME</a>
+        <a href="recog.html" >PART 1</a>
+        <a href="appre.html" >PART 2</a>        
+        <a href="constewardship.html" class="active">PART 3</a>
+        <a href="quin.html">PART 4</a>  
+    </div>
+
+    <video autoplay muted loop id="video-background">
+        <source src="video/back.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <section>
+        <div class="buttons">
+            <input type="radio" name="radio-btn" id="radio1" class="button" onclick="changeSlide(0)" checked>
+            <input type="radio" name="radio-btn" id="radio2" class="button" onclick="changeSlide(1)">
+            <input type="radio" name="radio-btn" id="radio3" class="button" onclick="changeSlide(2)">
+            <input type="radio" name="radio-btn" id="radio4" class="button" onclick="changeSlide(3)">
+    
+        
+        </div>
+
+        <img src="constewardship/cons/p1.png" alt="" class="slide"> 
+
+        <img src="constewardship/stew/p1.png" alt="" class="slide"> 
+        <img src="constewardship/stew/p2.png" alt="" class="slide"> 
+        <img src="constewardship/stew/p3.png" alt="" class="slide">
+       
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
